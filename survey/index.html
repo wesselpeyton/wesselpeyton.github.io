@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Cheer Survey Form</h1>
+  <p id="description">This survey you will be filling out information about your cheerleading experiences</p>
+  <form id="survey-form">
+    <label id="name-label">Name
+      <input placeholder="Enter your name" required id="name" type="text"></input>
+      <p></p>
+      </label>
+    <label id="email-label">Email
+      <input placeholder="Enter your email" required id="email" type="email"></input>
+      </label>
+      <p></p>
+    <label id="number-label">Enter your age
+      <label>
+      <input placeholder="Age" id="number" type="number" min="6" max="18"></input>
+      </label>
+      <p></p>
+      <label id="position-label">What is your cheer position?</label>
+      <select id="dropdown"> 
+        <option>Flyer</option>
+        <option>Main Base</option>
+        <option>Side Base</option>
+        <option>Backspot</option>
+        <option>Never cheered before</option>
+      </select>
+      <p></p>
+      <label id="gender-label">Select gender</label>
+      <p></p>
+       <input value="test1" name="test" type="radio"/>Male
+       <input value="test2" name="test" type="radio"/>Female
+       <input value="test2" name="test" type="radio"/>Rather not say
+       <p></p>
+       <label id="tumbling-label">Select all tumlbing skills</label>
+       <p></p>
+     <input type="checkbox" value="checkbox1"/>Back Hand Spring
+     <input type="checkbox" value="checkbox2"/>Back Tuck
+     <input type="checkbox" value="checkbox3"/>Running series
+ <input type="checkbox" value="checkbox4"/>Front tumbling
+  <input type="checkbox" value="checkbox5"/>Dont have tumbling 
+  <p></p>
+    <label id="additional-label">Enter any additonal information</label> 
+    <p></p>
+     <textarea type="textarea"></textarea>
+
+    <p></p>
+     <button id="submit">Submit</button>
+  </form>
+</body>
